@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-size: cover;
+    
+}
+
+    h1{
+        color:darkblue;
+        text-align: center;
+        font-family: fantasy;
+        font-size: 20px;
+        
+    }
+    h5{
+        color:black;
+        text-align: justify;
+        font-size: large;
+        background-color: beige;
+        
+        
+    }

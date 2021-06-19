@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta name="viewport" content="width=device-width" initial-scale="1">
+<title> Login form</title>
+<style>
+  body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink;
+    font-size: large;
+  } 
+button{
+  background-color: lightgreen;
+  width: 100%;
+  color: black;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+}
+form{
+  border: 3px solid lightgreen;
+
+}
+input[type=text],input[type=password]{
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid lavender;
+  box-sizing: border-box;
+}
+button:hover{
+  opacity: 0.7;
+}
+.cancelbtn{
+  width: auto;
+  padding: 10px 18px;
+  margin: 10px 5px;
+} 
+.container{
+  padding: 25px;
+  background-color: lightblue;
+}
+
+</style>
+</head>
+<body>
+  <center><h1>LOGIN FORM</h1></center>
+  <form>
+    <div class="container">
+      <label> USERNAME : </label>
+      <input type="text" placeholder="enter user username" name="username">
+      <label> PASSWORD :</label>
+      <input type="password" placeholder="enter your password" name="password" >
+      <button type="submit">LOGIN</button>
+      <input type="checkbox" checked="checked"> Remember me
+      <button type="button" class="cancelbtn">CANCEL</button>
+      Forgot <a href="#">password?</a>
+
+
+    </div>
+  </form>
+</body>
+</html>
